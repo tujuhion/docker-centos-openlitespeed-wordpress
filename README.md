@@ -28,9 +28,9 @@ docker run docker-centos-openlitespeed-wordpress
 ```
 ## Hub Docker
 
-Can found in https://hub.docker.com/r/7ion/docker-centos-openlitespeed-wordpress/
+Can found in https://hub.docker.com/r/7ion/wordpress-openlitespeed/
 
 or pull
 ```
-docker pull 7ion/docker-centos-openlitespeed-wordpress
+docker pull 7ion/wordpress-openlitespeed/
 ```
