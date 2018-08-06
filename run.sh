@@ -34,7 +34,7 @@ sed -e "s/database_name_here/wp_ls/" -e "s/username_here/wp_ls/" -e "s/password_
 sed -i '/#@-/r /tmp/wp.keys' wp-config.php
 sed -i "/#@+/,/#@-/d" wp-config.php
 
-chown nobody:nobody /home/defdomain/html/
+chown -R nobody:nobody /home/defdomain/html/
 
 #Delete Install file
 rmdir wordpress
